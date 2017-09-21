@@ -1,0 +1,33 @@
+html, body, #app {
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: #393939;
+    font-size: 14px;
+    font-weight: 400;
+    min-width: 804px;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/HelveticaRegular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/HelveticaThin.woff') format('woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/HelveticaBold.woff') format('woff');
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
